@@ -59,7 +59,16 @@ export default function App() {
           I am a developer with a focus on data
           </div>
           <Tree name="Work/Projects" >
-            
+            <Tree name="Computer Vision Fraud Detection">
+
+              <div>
+              Training computer vision models for detecting manipulated images and/or AI 🤖 generated/manipualted images 
+              </div>
+              <div> 
+                A very cool open source tool I am using is 5️⃣1️⃣ <a href = "https://voxel51.com/fiftyone/">Fiftyone</a>
+              </div>
+
+            </Tree>
             <Tree name="LLM App">
               <div>
                 Working on the backend of a LLM service for summarization and extraction
@@ -79,40 +88,45 @@ export default function App() {
               <a href = "https://senzing.com/what-is-entity-resolution/">More on entity resolution</a>
               
             </Tree>
-            <Tree name="Data Engineering with Spark" />
-          </Tree>
-          <Tree name="Play" defaultOpen>
-            <Tree name="hello" />
-            <Tree name="sub-subtree with children" defaultOpen>
-              <Tree name="child 1" style={{ color: '#37ceff' }} />
-              <Tree name="child 2" style={{ color: '#37ceff' }} />
-              <Tree name="child 3" style={{ color: '#37ceff' }} />
-              
+            <Tree name="Data Engineering with Spark">
+              <div>
+                I am good at Spark. I wrote good Spark code for 2 years. 
+              </div>
             </Tree>
           </Tree>
+    
           <Tree name="Play" defaultOpen>
             <Tree name="Skiing" style={{ color: '#37ceff' }}>
-              
+              <div>
+                I am too lazy to edit the videos but skiing is fun. Here is a place holder instead of a gif till I feel like editing the videos
+              </div>
+              <div
+                    style={{
+                      position: 'relative',
+                      width: '100%',
+                      height: 300,
+                      padding: 10,
+                    }}>
+                    <div
+                      style={{
+                        width: '100%',
+                        height: '100%',
+                        background: 'black',
+                        borderRadius: 5,
+                      }}
+                    />
+              </div>
+            </Tree>
+            <Tree name="Cooking">
+              <div>
+                Currently reading <a href = "https://www.seriouseats.com/the-food-lab-5118015">The Food Lab</a>. This is a really good comprehensive culinary book that is scientific.
+              </div>
+              <div>
+                Another cookbook that is entirely readable is <a href = "https://www.saltfatacidheat.com">The Food Lab</a>
+              </div>
             </Tree>
           </Tree>
-          <Tree name="custom content">
-                <div
-                  style={{
-                    position: 'relative',
-                    width: '100%',
-                    height: 300,
-                    padding: 10,
-                  }}>
-                  <div
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      background: 'black',
-                      borderRadius: 5,
-                    }}
-                  />
-                </div>
-            </Tree>
+          
           <Tree name="Open to DE/DS/SWE roles " />
         </Tree>
         <SocialIcons/>
